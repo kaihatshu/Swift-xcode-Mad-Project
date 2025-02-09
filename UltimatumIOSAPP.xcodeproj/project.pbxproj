@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C57679532D50564100F9CAD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57679522D50564100F9CAD8 /* AppDelegate.swift */; };
+		C57679552D50564100F9CAD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57679542D50564100F9CAD8 /* SceneDelegate.swift */; };
+		C57679572D50564100F9CAD8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57679562D50564100F9CAD8 /* LoginVC.swift */; };
+		C576795A2D50564100F9CAD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57679582D50564100F9CAD8 /* Main.storyboard */; };
+		C576795C2D50564400F9CAD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C576795B2D50564400F9CAD8 /* Assets.xcassets */; };
+		C576795F2D50564400F9CAD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C576795D2D50564400F9CAD8 /* LaunchScreen.storyboard */; };
+		C576796A2D50564500F9CAD8 /* UltimatumIOSAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57679692D50564500F9CAD8 /* UltimatumIOSAPPTests.swift */; };
+		C57679742D50564500F9CAD8 /* UltimatumIOSAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57679732D50564500F9CAD8 /* UltimatumIOSAPPUITests.swift */; };
+		C57679762D50564500F9CAD8 /* UltimatumIOSAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57679752D50564500F9CAD8 /* UltimatumIOSAPPUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C57679662D50564500F9CAD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C57679472D50564100F9CAD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C576794E2D50564100F9CAD8;
+			remoteInfo = UltimatumIOSAPP;
+		};
+		C57679702D50564500F9CAD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C57679472D50564100F9CAD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C576794E2D50564100F9CAD8;
+			remoteInfo = UltimatumIOSAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C576794F2D50564100F9CAD8 /* UltimatumIOSAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatumIOSAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57679522D50564100F9CAD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C57679542D50564100F9CAD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C57679562D50564100F9CAD8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C57679592D50564100F9CAD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C576795B2D50564400F9CAD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C576795E2D50564400F9CAD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C57679602D50564400F9CAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57679652D50564500F9CAD8 /* UltimatumIOSAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatumIOSAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57679692D50564500F9CAD8 /* UltimatumIOSAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatumIOSAPPTests.swift; sourceTree = "<group>"; };
+		C576796F2D50564500F9CAD8 /* UltimatumIOSAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatumIOSAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57679732D50564500F9CAD8 /* UltimatumIOSAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatumIOSAPPUITests.swift; sourceTree = "<group>"; };
+		C57679752D50564500F9CAD8 /* UltimatumIOSAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatumIOSAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C576794C2D50564100F9CAD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57679622D50564500F9CAD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C576796C2D50564500F9CAD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C57679462D50564100F9CAD8 = {
+			isa = PBXGroup;
+			children = (
+				C57679512D50564100F9CAD8 /* UltimatumIOSAPP */,
+				C57679682D50564500F9CAD8 /* UltimatumIOSAPPTests */,
+				C57679722D50564500F9CAD8 /* UltimatumIOSAPPUITests */,
+				C57679502D50564100F9CAD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C57679502D50564100F9CAD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C576794F2D50564100F9CAD8 /* UltimatumIOSAPP.app */,
+				C57679652D50564500F9CAD8 /* UltimatumIOSAPPTests.xctest */,
+				C576796F2D50564500F9CAD8 /* UltimatumIOSAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C57679512D50564100F9CAD8 /* UltimatumIOSAPP */ = {
+			isa = PBXGroup;
+			children = (
+				C57679522D50564100F9CAD8 /* AppDelegate.swift */,
+				C57679542D50564100F9CAD8 /* SceneDelegate.swift */,
+				C57679562D50564100F9CAD8 /* LoginVC.swift */,
+				C57679582D50564100F9CAD8 /* Main.storyboard */,
+				C576795B2D50564400F9CAD8 /* Assets.xcassets */,
+				C576795D2D50564400F9CAD8 /* LaunchScreen.storyboard */,
+				C57679602D50564400F9CAD8 /* Info.plist */,
+			);
+			path = UltimatumIOSAPP;
+			sourceTree = "<group>";
+		};
+		C57679682D50564500F9CAD8 /* UltimatumIOSAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				C57679692D50564500F9CAD8 /* UltimatumIOSAPPTests.swift */,
+			);
+			path = UltimatumIOSAPPTests;
+			sourceTree = "<group>";
+		};
+		C57679722D50564500F9CAD8 /* UltimatumIOSAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C57679732D50564500F9CAD8 /* UltimatumIOSAPPUITests.swift */,
+				C57679752D50564500F9CAD8 /* UltimatumIOSAPPUITestsLaunchTests.swift */,
+			);
+			path = UltimatumIOSAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C576794E2D50564100F9CAD8 /* UltimatumIOSAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57679792D50564500F9CAD8 /* Build configuration list for PBXNativeTarget "UltimatumIOSAPP" */;
+			buildPhases = (
+				C576794B2D50564100F9CAD8 /* Sources */,
+				C576794C2D50564100F9CAD8 /* Frameworks */,
+				C576794D2D50564100F9CAD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UltimatumIOSAPP;
+			productName = UltimatumIOSAPP;
+			productReference = C576794F2D50564100F9CAD8 /* UltimatumIOSAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C57679642D50564500F9CAD8 /* UltimatumIOSAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C576797C2D50564500F9CAD8 /* Build configuration list for PBXNativeTarget "UltimatumIOSAPPTests" */;
+			buildPhases = (
+				C57679612D50564500F9CAD8 /* Sources */,
+				C57679622D50564500F9CAD8 /* Frameworks */,
+				C57679632D50564500F9CAD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C57679672D50564500F9CAD8 /* PBXTargetDependency */,
+			);
+			name = UltimatumIOSAPPTests;
+			productName = UltimatumIOSAPPTests;
+			productReference = C57679652D50564500F9CAD8 /* UltimatumIOSAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C576796E2D50564500F9CAD8 /* UltimatumIOSAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C576797F2D50564500F9CAD8 /* Build configuration list for PBXNativeTarget "UltimatumIOSAPPUITests" */;
+			buildPhases = (
+				C576796B2D50564500F9CAD8 /* Sources */,
+				C576796C2D50564500F9CAD8 /* Frameworks */,
+				C576796D2D50564500F9CAD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C57679712D50564500F9CAD8 /* PBXTargetDependency */,
+			);
+			name = UltimatumIOSAPPUITests;
+			productName = UltimatumIOSAPPUITests;
+			productReference = C576796F2D50564500F9CAD8 /* UltimatumIOSAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C57679472D50564100F9CAD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C576794E2D50564100F9CAD8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					C57679642D50564500F9CAD8 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C576794E2D50564100F9CAD8;
+					};
+					C576796E2D50564500F9CAD8 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C576794E2D50564100F9CAD8;
+					};
+				};
+			};
+			buildConfigurationList = C576794A2D50564100F9CAD8 /* Build configuration list for PBXProject "UltimatumIOSAPP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C57679462D50564100F9CAD8;
+			productRefGroup = C57679502D50564100F9CAD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C576794E2D50564100F9CAD8 /* UltimatumIOSAPP */,
+				C57679642D50564500F9CAD8 /* UltimatumIOSAPPTests */,
+				C576796E2D50564500F9CAD8 /* UltimatumIOSAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C576794D2D50564100F9CAD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C576795F2D50564400F9CAD8 /* LaunchScreen.storyboard in Resources */,
+				C576795C2D50564400F9CAD8 /* Assets.xcassets in Resources */,
+				C576795A2D50564100F9CAD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57679632D50564500F9CAD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C576796D2D50564500F9CAD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C576794B2D50564100F9CAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57679572D50564100F9CAD8 /* LoginVC.swift in Sources */,
+				C57679532D50564100F9CAD8 /* AppDelegate.swift in Sources */,
+				C57679552D50564100F9CAD8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57679612D50564500F9CAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C576796A2D50564500F9CAD8 /* UltimatumIOSAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C576796B2D50564500F9CAD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57679742D50564500F9CAD8 /* UltimatumIOSAPPUITests.swift in Sources */,
+				C57679762D50564500F9CAD8 /* UltimatumIOSAPPUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C57679672D50564500F9CAD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C576794E2D50564100F9CAD8 /* UltimatumIOSAPP */;
+			targetProxy = C57679662D50564500F9CAD8 /* PBXContainerItemProxy */;
+		};
+		C57679712D50564500F9CAD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C576794E2D50564100F9CAD8 /* UltimatumIOSAPP */;
+			targetProxy = C57679702D50564500F9CAD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C57679582D50564100F9CAD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C57679592D50564100F9CAD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C576795D2D50564400F9CAD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C576795E2D50564400F9CAD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C57679772D50564500F9CAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C57679782D50564500F9CAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C576797A2D50564500F9CAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UltimatumIOSAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.UltimatumIOSAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C576797B2D50564500F9CAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UltimatumIOSAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.UltimatumIOSAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C576797D2D50564500F9CAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.UltimatumIOSAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltimatumIOSAPP.app/UltimatumIOSAPP";
+			};
+			name = Debug;
+		};
+		C576797E2D50564500F9CAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.UltimatumIOSAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltimatumIOSAPP.app/UltimatumIOSAPP";
+			};
+			name = Release;
+		};
+		C57679802D50564500F9CAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.UltimatumIOSAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UltimatumIOSAPP;
+			};
+			name = Debug;
+		};
+		C57679812D50564500F9CAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.UltimatumIOSAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UltimatumIOSAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C576794A2D50564100F9CAD8 /* Build configuration list for PBXProject "UltimatumIOSAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57679772D50564500F9CAD8 /* Debug */,
+				C57679782D50564500F9CAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57679792D50564500F9CAD8 /* Build configuration list for PBXNativeTarget "UltimatumIOSAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C576797A2D50564500F9CAD8 /* Debug */,
+				C576797B2D50564500F9CAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C576797C2D50564500F9CAD8 /* Build configuration list for PBXNativeTarget "UltimatumIOSAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C576797D2D50564500F9CAD8 /* Debug */,
+				C576797E2D50564500F9CAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C576797F2D50564500F9CAD8 /* Build configuration list for PBXNativeTarget "UltimatumIOSAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57679802D50564500F9CAD8 /* Debug */,
+				C57679812D50564500F9CAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C57679472D50564100F9CAD8 /* Project object */;
+}
